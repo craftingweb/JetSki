@@ -29,6 +29,10 @@ h6 {
   margin: 0;
 }
 
+p {
+  margin: 0;
+}
+
 body {
   color: #2f3035;
   font-weight: 400;
@@ -43,7 +47,8 @@ body {
   padding: 0 15px;
 }
 
-.header__top {
+.header {
+  margin-bottom: 80px;
 }
 
 .header__top-inner {
@@ -121,7 +126,7 @@ body {
   height: 20px;
   border-radius: 50%;
   background-color: #1c62cd;
-  top: -6px;
+  top: 2px;
 }
 
 .menu-categories-item {
@@ -193,4 +198,120 @@ body {
 
 .banner-section__slider .slick-active button {
   background-color: #f0f0f4;
+}
+
+.sale-item {
+  max-width: 265px;
+  min-height: 400px;
+  border: 1px solid #c4c4c4;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.sale-item__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.sale-item__info {
+  color: #fff;
+  font-family: "Proxima Nova";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  background-color: #1c62cd;
+  padding: 8px 20px;
+}
+
+.price {
+  font-family: "Barlow", sans-serif;
+}
+
+.sale-item__price-new {
+  padding-right: 3px;
+  color: #1c62cd;
+  font-family: Barlow;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-left: 20px;
+  position: relative;
+}
+
+.sale-item__price-new::before {
+  content: "";
+  background-image: url("/images/dollar-sign-blue.svg");
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  top: 5px;
+  left: 0;
+}
+
+.sale-item__price-old {
+  color: #c4c4c4;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  padding-right: 3px;
+  margin-bottom: 7px;
+}
+
+.sale-item__price {
+  text-align: right;
+}
+
+.sale-item__price-old::before {
+  content: "";
+  background-image: url("/images/dollar-sign-grey.svg");
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  left: 38px;
+  top: 1px;
+}
+
+.sale-item__price-old::after {
+  content: "";
+  border-bottom: 1px solid #c4c4c4;
+  position: absolute;
+  left: 40px;
+  width: 44px;
+  rotate: -14deg;
+  top: 8px;
+}
+
+.sale-item__title {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 0 15px;
+  margin-bottom: 30px;
+}
+
+.sale-item__footer {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 25px 15px;
+  background-color: #f0f0f4;
+}
+
+.sale-item__footer span {
+  color: #1c62cd;
+  text-align: center;
+  font-family: Barlow;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
