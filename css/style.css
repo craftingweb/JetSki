@@ -144,3 +144,53 @@ body {
   left: 0;
   width: 100%;
 }
+
+.banner-section__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner-section__slider {
+  max-width: 870px;
+}
+
+.banner-section__slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+}
+
+.banner-section__slider-btnprev {
+  z-index: 5;
+  margin-left: 30px;
+}
+
+.banner-section__slider-btnnext {
+  right: 30px;
+}
+
+.banner-section__slider .slick-dots {
+  display: flex;
+  font-size: 0;
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  gap: 9px;
+}
+
+.banner-section__slider .slick-dots button {
+  border: none;
+  width: 11px;
+  height: 11px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 1px solid white;
+  padding: 0;
+}
+
+.banner-section__slider .slick-active button {
+  background-color: #f0f0f4;
+}
