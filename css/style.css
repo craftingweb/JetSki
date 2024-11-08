@@ -11,6 +11,7 @@ html {
 a {
   text-decoration: none;
   color: inherit;
+  display: inline-block;
 }
 
 ul,
@@ -39,6 +40,10 @@ body {
   font-size: 20px;
   line-height: 24px;
   font-family: "SFProDisplay-Regular", sans-serif;
+}
+
+.page-section {
+  margin-bottom: 80px;
 }
 
 .container {
@@ -314,4 +319,64 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+
+.search__tabs {
+  margin-bottom: 25px;
+}
+
+.search__content-item {
+  display: none;
+}
+
+.search__content-item--active {
+  display: block;
+}
+
+.search__tabs-item {
+  padding: 12px 26px;
+}
+
+.search__tabs-item--active {
+  border-radius: 5%;
+  background-color: #f0f0f4;
+  font-weight: 700;
+  font-family: "SFProDisplay-Bold", sans-serif;
+}
+
+.search__content-form {
+  display: flex;
+}
+
+.search__content-input {
+  width: 100%;
+  background-color: #f0f0f4;
+  border: none;
+  border-radius: 3px;
+}
+
+.search__content-input::placeholder {
+  color: #656464;
+  font-family: "SFProDisplay-Bold", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 20px;
+}
+
+.search__content-btn {
+  margin-left: -3px;
+  padding: 17px 40px;
+  background-color: #1c62cd;
+  color: #fff;
+  border: none;
+  border-radius: 5%;
+  text-transform: uppercase;
+  font-family: "SFProDisplay-Bold", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.68px;
 }
