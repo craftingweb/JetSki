@@ -18,4 +18,12 @@ $(function () {
   $(".product__item-favorite").on("click", function () {
     $(".product__item-favorite").toggleClass("product__item-favorite--active");
   });
+
+  $(".product__slider").slick({
+    slidesToShow: 4,
+    prevArrow:
+      '<button class="popular__slider-btn popular__slider-btnprev"><img src="/images/popular-arrow-left.svg" alt="arrow left" /></button>',
+    nextArrow:
+      '<button class="popular__slider-btn popular__slider-btnnext"><img src="/images/popular-arrow-right.svg" alt="arrow left" /></button>',
+  });
 });
