@@ -140,18 +140,18 @@
       <div class="container">
         <div class="search__inner">
           <div class="search__tabs">
-            <a class="search__tabs-item search__tabs-item--active" href="#tab-1"
+            <a class="tab search__tabs-item tab--active" href="#tab-1"
               >Search by number</a
             >
-            <a class="search__tabs-item" href="#tab-2">Search by brand</a>
-            <a class="search__tabs-item" href="#tab-3">
+            <a class="tab search__tabs-item" href="#tab-2">Search by brand</a>
+            <a class="tab search__tabs-item" href="#tab-3">
               Search by product name</a
             >
           </div>
           <div class="search__content">
             <div
               id="tab-1"
-              class="search__content-item search__content-item--active"
+              class="tabs-content search__content-item tabs-content--active"
             >
               <form class="search__content-form">
                 <input
@@ -164,7 +164,7 @@
                 </button>
               </form>
             </div>
-            <div id="tab-2" class="search__content-item">
+            <div id="tab-2" class="tabs-content search__content-item">
               <form class="search__content-form">
                 <input
                   class="search__content-input"
@@ -176,7 +176,7 @@
                 </button>
               </form>
             </div>
-            <div id="tab-3" class="search__content-item">
+            <div id="tab-3" class="tabs-content search__content-item">
               <form class="search__content-form">
                 <input
                   class="search__content-input"
@@ -262,8 +262,65 @@
         </div>
       </div>
     </section>
+    <section class="products page-section">
+      <div class="container">
+        <h2 class="products__title">Popular items</h2>
+        <div class="products__inner">
+          <div class="tabs-wrapper">
+            <div class="tabs products__tabs">
+              <a class="tab tab--active products__tab" href="#">Parts</a>
+              <a class="tab products__tab" href="#">Engines</a>
+              <a class="tab products__tab" href="#">Tires</a>
+              <a class="tab products__tab" href="#">Electronics</a>
+              <a class="tab products__tab" href="#">Tools</a>
+              <a class="tab products__tab" href="#">Accessories</a>
+            </div>
+            <div class="tabs-container products__container">
+              <div
+                class="tabs-content products-content tabs-content--active"
+              ></div>
+              <div class="tabs-content products-content">
+                <div class="product__slider">
+                  <div class="product__slider-item">
+                    <div class="product__item-wrapper">
+                      <a class="product__popup" href="#">view product</a>
+                      <button class="product__item-favorite"></button>
+                      <button class="product__item-basket">
+                        <img src="/images/cart-white.svg" alt="cart" />
+                      </button>
+                      <a class="product__item" href="#">
+                        <img
+                          class="product__item-img"
+                          src="/images/product-1.png"
+                          alt="product-1"
+                        />
+                        <h4 class="product__item-title">Waterproof Backpack</h4>
+                        <p class="price product__item-price">$100</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tabs-content products-content"></div>
+              <div class="tabs-content products-content"></div>
+              <div class="tabs-content products-content"></div>
+              <div class="tabs-content products-content"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
+
+<!--           <div class="tabs-wrapper">
+            <div class="tabs">
+              <a class="tab tab--active" href="#"></a>
+            </div>
+            <div class="tabs-container">
+              <div class="tabs-content"></div>
+            </div>
+          </div> -->

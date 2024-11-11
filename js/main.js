@@ -6,11 +6,16 @@ $(function () {
     nextArrow:
       '<button class="banner-section__slider-btn banner-section__slider-btnnext"><img src="/images/arrow-right.svg" alt="arrow left" /></button>',
   });
-  $(".search__tabs-item").on("click", function (e) {
+
+  $(".tab").on("click", function (e) {
     e.preventDefault();
-    $(".search__tabs-item").removeClass("search__tabs-item--active");
-    $(".search__content-item").removeClass("search__content-item--active");
-    $(this).addClass("search__tabs-item--active");
-    $($(this).attr("href")).addClass("search__content-item--active");
+    $(".tab").removeClass("tab--active");
+    $(".tabs-content").removeClass("tabs-content--active");
+    $(this).addClass("tab--active");
+    $($(this).attr("href")).addClass("tabs-content--active");
+  });
+
+  $(".product__item-favorite").on("click", function () {
+    $(".product__item-favorite").toggleClass("product__item-favorite--active");
   });
 });
