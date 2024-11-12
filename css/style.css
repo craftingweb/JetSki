@@ -650,3 +650,37 @@ body {
   text-transform: uppercase;
   color: #2f3035;
 }
+
+.banner__inner {
+  display: flex;
+  background-color: #1c62cd;
+  padding: 25px 0;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.banner__text {
+  color: #fff;
+  font-family: "SFProDisplay-Regular", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.banner__text span {
+  display: block;
+}
+
+.banner__link {
+  color: #2f3035;
+  text-align: right;
+  font-family: "SFProDisplay-Regular", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 50px;
+  text-transform: uppercase;
+  padding: 3px 41px;
+  background-color: #fff;
+}
