@@ -778,3 +778,36 @@ body {
   gap: 50px;
   margin-top: 50px;
 }
+
+/* Catalog Page */
+
+.breadcrumbs {
+  margin-bottom: 40px;
+}
+
+.breadcrumbs__item {
+  display: inline-block;
+  color: #c4c4c4;
+  font-family: "SFProDisplay-Regular", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-right: 16px;
+  margin-right: 5px;
+  position: relative;
+}
+
+.breadcrumbs__item::after {
+  position: absolute;
+  content: "";
+  background-image: url(/images/breadcrumbs.svg);
+  height: 10px;
+  width: 6px;
+  right: 0;
+  bottom: 4px;
+}
+
+.breadcrumbs__item:last-child::after {
+  display: none;
+}
