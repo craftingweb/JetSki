@@ -631,3 +631,22 @@ body {
 .products__tab {
   padding-bottom: 10px;
 }
+
+.product__more {
+  text-align: center;
+  margin-top: 35px;
+}
+
+.product__btn {
+  padding: 17px 43px;
+  background-color: #f0f0f4;
+  text-align: center;
+  font-family: "SFProDisplay-Regular", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  color: #2f3035;
+}

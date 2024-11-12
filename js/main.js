@@ -21,6 +21,7 @@ $(function () {
 
   $(".product__slider").slick({
     slidesToShow: 4,
+    slidesToScroll: 1,
     prevArrow:
       '<button class="popular__slider-btn popular__slider-btnprev"><img src="/images/popular-arrow-left.svg" alt="arrow left" /></button>',
     nextArrow:
