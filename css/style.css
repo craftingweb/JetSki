@@ -624,10 +624,6 @@ body {
   right: -20px;
 }
 
-.tab--active {
-  border-bottom: 2px solid #1c62cd;
-}
-
 .products__tab {
   padding-bottom: 10px;
 }
@@ -903,4 +899,32 @@ body {
 }
 
 .pagination__list-item a {
+  display: block;
+}
+
+.aside-filter__tabs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.aside-filter__tab {
+  width: 50%;
+  font-family: "SFProDisplay-Bold", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.44px;
+  text-transform: uppercase;
+  color: #c4c4c4;
+}
+
+.tab--active {
+  color: #2f3035;
+}
+
+.tab--active span {
+  display: inline-block;
+  border-bottom: 2px solid #1c62cd;
+  padding-bottom: 7px;
 }
