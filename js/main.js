@@ -36,4 +36,9 @@ $(function () {
     $(this).toggleClass("filter__item-drop--active");
     $(this).next().slideToggle(200);
   });
+
+  $(".js-range-slider").ionRangeSlider({
+    min: 5000,
+    max: 20000,
+  });
 });
