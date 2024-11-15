@@ -1098,3 +1098,84 @@ body {
 .irs--flat .irs-handle:hover > i:first-child {
   background-color: transparent;
 }
+
+.filter__item-list {
+  display: flex;
+  justify-content: space-between;
+}
+.aside-filter__item-list {
+  margin: 80px 0 40px;
+  border-bottom: 2px solid #c4c4c4;
+}
+
+.filter__item-listtitle {
+  padding-bottom: 14px;
+  font-family: "SFProDisplay-Bold", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.filter__item-listselect {
+}
+
+.jq-selectbox__select {
+  color: #48494d;
+  font-family: "Barlow", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  height: 20px;
+  padding: 0 30px 0 10px;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  text-shadow: none;
+  border: none;
+}
+
+.jq-selectbox__trigger-arrow {
+  position: absolute;
+  top: 14px;
+  right: 12px;
+  width: 0;
+  height: 0;
+  border: none;
+}
+
+.jq-selectbox__trigger {
+  position: absolute;
+  border-left: none;
+  background-image: url("/images/arrow-down.svg");
+  width: 12px;
+  height: 8px;
+  bottom: 5px;
+  transform: rotate(0);
+  top: 6px;
+  right: 9px;
+}
+
+.jq-selectbox__select:hover,
+.jq-selectbox__select:active {
+  background: transparent;
+  box-shadow: none;
+}
+.jq-selectbox.focused .jq-selectbox__select {
+  border: none;
+}
+
+.jq-selectbox li:hover {
+  background: rgba(107, 126, 172, 0.05);
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.jq-selectbox li:selected {
+  background: rgba(107, 126, 172, 0.05);
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.jq-selectbox li {
+  color: rgba(0, 0, 0, 0.6);
+}
