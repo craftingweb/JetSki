@@ -964,11 +964,12 @@ body {
 .aside-filter__content {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .aside-filter__content-box {
   width: 50%;
+  margin-bottom: 10px;
 }
 
 .aside-filter__content-label {
@@ -1099,13 +1100,15 @@ body {
   background-color: transparent;
 }
 
+.aside-filter__item-list {
+  margin: 46px 0 40px;
+}
+
 .filter__item-list {
   display: flex;
   justify-content: space-between;
-}
-.aside-filter__item-list {
-  margin: 80px 0 40px;
   border-bottom: 2px solid #c4c4c4;
+  padding-top: 36px;
 }
 
 .filter__item-listtitle {
@@ -1115,6 +1118,7 @@ body {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  padding-left: 26px;
 }
 
 .filter__item-listselect {
@@ -1178,4 +1182,18 @@ body {
 
 .jq-selectbox li {
   color: rgba(0, 0, 0, 0.6);
+}
+
+.filter-more {
+  color: #1c62cd;
+  font-family: "SFProDisplay-Regular", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 4px;
+}
+
+.filter-more__link {
+  border-bottom: 1px solid #1c62cd;
 }
