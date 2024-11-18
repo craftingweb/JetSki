@@ -843,6 +843,11 @@ body {
   cursor: pointer;
 }
 
+.catalog__filter-btn {
+  display: flex;
+  align-items: center;
+}
+
 .catalog__filter-btngrid,
 .catalog__filter-btnline {
   border: none;
@@ -1185,15 +1190,51 @@ body {
 }
 
 .filter-more {
+  width: 100%;
+}
+
+.filter-more__btn {
   color: #1c62cd;
   font-family: "SFProDisplay-Regular", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  padding: 4px;
+  border: none;
+  padding: 0;
+  padding-bottom: 4;
+  border-bottom: 1px solid #1c62cd;
+  background-color: transparent;
 }
 
-.filter-more__link {
-  border-bottom: 1px solid #1c62cd;
+.filter-search {
+  width: 100%;
+  background-color: #e0e0e0;
+  height: 30px;
+  position: 0 20px;
+  font-family: "SFProDisplay-Regular", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: transparent;
+  border: 1px solid #e0e0e0;
+}
+
+.filter-search::placeholder {
+  color: #bdbec2;
+}
+
+.select-item {
+  border: 1.5px solid #d7d9df;
+  color: #2f3035;
+  font-family: "SFProDisplay-Regular", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 34px;
+  padding: 8px 10px 8px 20px;
 }
