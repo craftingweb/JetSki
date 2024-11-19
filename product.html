@@ -120,33 +120,38 @@
               src="/images/atv-large.png"
               alt="atv"
             />
-            <p class="product-card__price-old">20000</p>
-            <p class="product-card__price-new">17000</p>
+            <p class="product-card__price-old">$ 20 000</p>
+            <p class="product-card__price-new">$ 17 000</p>
             <a class="product-card__link" href="#"
-              >Find cheaper? We match the price</a
+              >Find cheaper? We match the price!</a
             >
           </div>
           <div class="product-card__content">
             <h1 class="product-card__title">
-              Гидроцикл BRP SeaDoo GTI 155hp SE Long Blue Metallic
+              ATV BRP SeaDoo GTI 155hp SE Long Blue Metallic
             </h1>
             <p class="product-card__code">Item Number: 27456-2</p>
             <div class="product-card__buttons">
-              <button class="product-card__icon-favorite">
+              <a href="#" class="product-card__icon-favorite">
                 <img src="/images/heart.svg" alt="icons" />
-              </button>
-              <button class="product-card__icon-graph">
+              </a>
+              <a href="#" class="product-card__icon-graph">
                 <img src="/images/graph.svg" alt="icons" />
-              </button>
-              <div class="rate"></div>
+              </a>
+              <a href="#" class="rate"> </a>
             </div>
             <div class="tabs-wraper product-card__tabs">
               <div class="tabs">
-                <a class="tab product-card__tab tab--active" href="#">Info</a>
-                <a class="tab product-card__tab" href="#">Available in store</a>
+                <a class="tab product-card__tab tab--active" href="#product-1"
+                  >Information</a
+                >
+                <a class="tab product-card__tab" href="#product-2"
+                  >Available in store</a
+                >
               </div>
               <div class="tabs-container">
                 <div
+                  id="product-1"
                   class="tabs-content product-card__tab-content tabs-content--active"
                 >
                   <ul class="product-card__list">
@@ -172,9 +177,14 @@
                     </li>
                   </ul>
                   <a class="product-card__more">Show More</a>
-                  <button class="product-card__btn">Buy</button>
+                  <div class="product-card__btn">
+                    <button>Buy</button>
+                  </div>
                 </div>
-                <div class="tabs-content product-card__tab-content">
+                <div
+                  id="#product-2"
+                  class="tabs-content product-card__tab-content"
+                >
                   content-2
                 </div>
               </div>
