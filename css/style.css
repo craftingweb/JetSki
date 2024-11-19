@@ -1391,3 +1391,124 @@ body {
 .product-card__buttons a + a {
   margin-left: 30px;
 }
+
+.card__tab-box {
+  background: #f0f0f4;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 22px 0;
+  margin-bottom: 50px;
+}
+
+.card__tab {
+  font-family: "SFProDisplay-Regular", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.6;
+}
+
+.card__tab.tab--active {
+  border-bottom: 1px solid #1c62cd;
+  opacity: 1;
+}
+
+.card__top-line {
+  margin-bottom: 10px;
+}
+
+.card__label-search {
+  font-family: "SFProDisplay-Regular", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: rgba(47, 53, 54, 0.7);
+}
+
+.card__input-search {
+  border-radius: 3px;
+  background: #f0f0f4;
+  padding: 9px 37px 9px 17px;
+  border: none;
+  margin-left: 17px;
+  margin-right: 100px;
+}
+
+.card__label-pickup {
+  margin-left: 50px;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: "SFProDisplay-Regular", sans-serif;
+  color: rgba(47, 53, 54, 0.7);
+}
+
+.card__list-item {
+  padding: 20px 0;
+  border-bottom: 1px solid #c4c4c4;
+  display: flex;
+  opacity: 0.7;
+  font-family: "SFProDisplay-Regular", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.card__list-itemtitle {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.card__list-address {
+  width: 250px;
+  margin-right: 81px;
+}
+
+.card__list-workhours {
+  width: 200px;
+  margin-right: 100px;
+}
+
+.card__list-workhours span {
+  display: block;
+}
+
+.card__list-available {
+  width: 140px;
+  margin-right: 120px;
+}
+
+.card__list-num {
+  width: 100px;
+}
+
+.card__list-btn {
+  margin-left: auto;
+}
+
+.card__list-btn button {
+  color: #fff;
+  font-family: "SFProDisplay-Regular", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.56px;
+  padding: 10px 40px;
+  background-color: #1c62cd;
+  text-transform: uppercase;
+  border-radius: 3px;
+  border: none;
+}
+
+.card__tabs {
+  margin-bottom: 100px;
+}
