@@ -144,10 +144,18 @@ body {
   width: 243px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   transform: translateX(-100%);
+  transition: all 0.7s;
+  position: absolute;
+  z-index: 10;
+  background-color: #fff;
 }
 
 .menu-mobile__list-active {
   transform: translateX(0%);
+}
+
+.menu-mobile__linewrapper {
+  display: none;
 }
 
 .menu-mobile__item {

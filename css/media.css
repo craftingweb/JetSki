@@ -19,6 +19,7 @@
     background-color: transparent;
     cursor: pointer;
     border: none;
+    padding: 0;
   }
   .menu__btn-line {
     background-color: black;
@@ -26,6 +27,25 @@
     height: 3px;
     width: 34px;
     margin: 8px 0;
+  }
+  .menu-mobile__linewrapper {
+    display: none;
+    color: #2f3035;
+    text-align: center;
+    font-family: "SFProDisplay-Bold", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .menu-mobile__line {
+    display: flex;
+    gap: 30px;
+    display: flex;
+    overflow-x: scroll;
+    width: 450px;
+    background-color: #f0f0f4;
+    padding: 15px 0 15px 15px;
   }
 }
 
