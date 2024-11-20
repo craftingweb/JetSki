@@ -41,4 +41,8 @@ $(function () {
     min: 5000,
     max: 20000,
   });
+
+  $(".menu__btn").on("click", function () {
+    $(".menu-mobile__list").toggleClass("menu-mobile__list-active");
+  });
 });

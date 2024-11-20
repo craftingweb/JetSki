@@ -40,6 +40,8 @@ body {
   font-size: 20px;
   line-height: 24px;
   font-family: "SFProDisplay-Regular", sans-serif;
+  overflow-x: hidden;
+  min-width: 375px;
 }
 
 .page-section {
@@ -132,6 +134,37 @@ body {
   border-radius: 50%;
   background-color: #1c62cd;
   top: 9px;
+}
+
+.menu__btn {
+  display: none;
+}
+
+.menu-mobile__list {
+  width: 243px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  transform: translateX(-100%);
+}
+
+.menu-mobile__list-active {
+  transform: translateX(0%);
+}
+
+.menu-mobile__item {
+  position: relative;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.menu-mobile__link {
+  display: block;
+  padding-left: 53px;
+  padding-top: 36px;
+}
+
+.menu-mobile__img {
+  position: absolute;
+  bottom: 0;
+  left: 11px;
 }
 
 .menu-categories-item {
