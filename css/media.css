@@ -13,6 +13,9 @@
   .banner {
     display: none;
   }
+  .catalog__inner-list {
+    justify-content: space-around;
+  }
 }
 
 @media (max-width: 1100px) {
@@ -113,5 +116,18 @@
   }
   .footer__top-title {
     width: 241px;
+  }
+  .catalog__inner {
+    flex-wrap: wrap;
+  }
+  .catalog__filter-items button {
+    margin-bottom: 10px;
+  }
+  .product__item-wrapper {
+    padding: 23px 10px 31px;
+  }
+  .catalog__inner-list {
+    display: block;
+    margin-left: 50px;
   }
 }
