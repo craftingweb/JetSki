@@ -478,6 +478,7 @@ body {
 }
 
 .product__item-wrapper {
+  height: 400px;
   position: relative;
   width: 271px;
   border-radius: 3px;

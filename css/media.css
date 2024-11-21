@@ -5,10 +5,13 @@
   .banner-section__slider-item img {
     max-width: 600px;
     margin-bottom: 20px;
-    /* min-height: 400px; */
   }
   .banner-section__inner {
     justify-content: space-around;
+  }
+  .products,
+  .banner {
+    display: none;
   }
 }
 
@@ -82,6 +85,13 @@
   .category__inner {
     justify-content: center;
   }
+  .footer__bottom {
+    display: none;
+  }
+  .footer__top-item:nth-child(2),
+  .footer__top-item:nth-child(3) {
+    display: none;
+  }
 }
 
 @media (max-width: 640px) {
@@ -96,5 +106,12 @@
   }
   .search__tabs {
     text-align: center;
+  }
+  .footer__top-inner {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer__top-title {
+    width: 241px;
   }
 }
